@@ -53,6 +53,6 @@ const retailCompanies = companies.filter(company => company.category === 'Retail
 //     }
 // })
 // Get 80s companies ES 6 way ( arrow)
-const eightiesCompanies = companies.filter(company => company.start <= 1989)
+const eightiesCompanies = companies.filter(company => (company.start >= 1980 && company.start < 1990))
 console.log(eightiesCompanies)
 
