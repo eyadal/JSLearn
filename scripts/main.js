@@ -45,5 +45,14 @@ const canDrink = ages.filter(age => age >= 21)
 //     }
 // })
 const retailCompanies = companies.filter(company => company.category === 'Retail')
-console.log(retailCompanies)
+
+// Get 80s companies ES 5 way
+// const eightiesCompanies = companies.filter(function (company) {
+//     if (company.start <= 1989) {
+//         return true
+//     }
+// })
+// Get 80s companies ES 6 way ( arrow)
+const eightiesCompanies = companies.filter(company => company.start <= 1989)
+console.log(eightiesCompanies)
 
