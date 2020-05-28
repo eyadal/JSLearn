@@ -29,3 +29,4 @@ for (let i = 0; i < ages.length; i++) {
         canDrink.push(ages[i])
     }
 }
+console.log(canDrink)
